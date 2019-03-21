@@ -11,25 +11,25 @@ def add_element_to_end_of_array(array, element)
 end
 
 def add_element_to_start_of_array(array, element)
-  .unshift(element)
+  add_element_to_start_of_array.unshift(element)
 end
 
 def remove_element_from_end_of_array(array)
-  .pop(element)
+  remove_element_from_end_of_array.pop(element)
 end
 
 def remove_element_from_start_of_array(array)
-  .shift(element)
+  remove_element_from_start_of_array.shift(element)
 end
 
 def retrieve_element_from_index(array, index_number)
-  [index_number]
+  retrieve_element_from_index[index_number]
 end
 
 def retrieve_first_element_from_array(array)
-  [0]
+  retrieve_first_element_from_array[0]
 end
 
 def retrieve_last_element_from_array(array)
-  [-1]
+  retrieve_last_element_from_array[-1]
 end
